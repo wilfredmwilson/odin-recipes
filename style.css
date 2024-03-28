@@ -1,0 +1,32 @@
+div {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #EEEEEE;
+    margin: 50px;
+  }
+  h1
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(165, 184, 0);
+    font-weight: 600;
+  }
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+  }
+  li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+  }
+  .introduction {
+    background-color: #a2bb13;
+  }
+  
+  .main-content {
+    background-color: #e6b61b;
+  }
+  
+  .contact-us {
+    background-color: #bb5807;
+  }
