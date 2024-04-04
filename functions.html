@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        
+        <title>Functions</title>
+    </head>
+    <body >
+        <script>
+            // function of adding 7
+        function add7(n)
+        {
+            document.write("function of adding 7");
+            document.write("<br>");
+            return n+7;
+        }
+        document.write(add7(10));
+        document.write("<br>");
+
+
+        // function of multiplying with 2
+        function multiply(n)
+        {
+            document.write("function of multiplying with 2");
+            document.write("<br>");
+            return n*2;
+        }
+        document.write(multiply(10));
+
+
+        // function of printing the last letter
+        document.write("<br>");
+        function lastLetter(n)
+        {
+            document.write("function of printing the last letter");
+            document.write("<br>");
+            return n.slice(-1);
+        }
+        document.write(lastLetter("abcd"));
+
+        document.write("<br>");
+        // function of making first letter capitialize
+        
+        function capitalize(n)
+        {
+            document.write("function of making first letter capitialize");
+            document.write("<br>");
+            return n[0].toUpperCase() + n.slice(1);
+        }
+        document.write(capitalize("abcdef"))
+        </script>
+    </body>
+</html>
